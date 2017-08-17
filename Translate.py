@@ -10,10 +10,7 @@ tabs = str(contents)
 digits = re.findall(r'(?<=-)(\d+)', tabs)
 
 
-def separate_zeros(string):
-    return list(string)
-
-test = [separate_zeros(number) if len(number) >= 2 and number[0] == '0' and number[1] == '0'
+test = [list(number) if len(number) >= 2 and number[0] == '0' and number[1] == '0'
         else number for number in digits]
 
 flattened = []
