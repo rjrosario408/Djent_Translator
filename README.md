@@ -7,4 +7,4 @@ The tabs aren't translated logically, so if you're looking for a deeper meaning 
 - Extract tabs 
 - If a number is greater than 1, then convert it to binary without leading 0's. 
 - Combine tabs into one string and then split into groups of 8.
-- Convert each binary number into a character. (not done yet)  
+- Convert each binary number into a character. 
