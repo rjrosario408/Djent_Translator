@@ -27,3 +27,4 @@ def binary_tabs(link):
     return [chr(int(total[i:i + length],2)) for i in range(0, len(total), length)]
 
 binary_tabs('https://tabs.ultimate-guitar.com/e/emmure/10_signs_you_should_leave_tab.htm')
+
