@@ -24,6 +24,6 @@ def binary_tabs(link):
     total = ''.join([format(x, 'b') if x > 1 else str(x) for x in flattened])
     length = 8
 
-    return [total[i:i + length] for i in range(0, len(total), length)]
+    return [chr(int(total[i:i + length],2)) for i in range(0, len(total), length)]
 
 binary_tabs('https://tabs.ultimate-guitar.com/e/emmure/10_signs_you_should_leave_tab.htm')
